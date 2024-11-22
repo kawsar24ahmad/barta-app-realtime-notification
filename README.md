@@ -25,8 +25,8 @@ This project is a notification system integrated into a web application, display
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
-   cd <project_directory>
+   git clone https://github.com/kawsar24ahmad/barta-app-realtime-notification.git
+   cd barta-app-realtime-notification
    ```
 
 2. Install dependencies:
@@ -77,13 +77,6 @@ The notification button is located in the header or navigation section. It displ
 - **resources/views/notifications**: Views for displaying notifications.
 - **routes/web.php**: Defines routes for fetching notifications.
 - **app/Http/Controllers/NotificationController.php**: Controller for handling the logic of fetching and marking notifications.
-
-## API Endpoints
-
-- `GET /notifications`: Fetch all notifications for the current user.
-- `POST /notifications/mark-as-read`: Mark a specific notification as read.
-- `POST /notifications/mark-all-as-read`: Mark all notifications as read.
-- `GET /notifications/unread-count`: Fetch the count of unread notifications.
 
 ## Contributing
 
